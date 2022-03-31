@@ -1,0 +1,166 @@
+@font-face{
+	font-family: "Hadriel";
+	src: url("fonts/Hadriel.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "Magdelin";
+	src: url("fonts/Magdelin-Regular.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+.main{
+	background: url("images/wallpaper_registration.jpg") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.main_text{
+	font-family: Hadriel;
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom: 2vh;
+	color: #FFFF01;
+	font-size: 100px;
+}
+
+.registration{
+	background: linear-gradient(rgba(246,247,249,0.8),rgba(246,247,249,0.8));
+	border-radius: 20px;
+	width: 60vw;
+	margin: 0 auto;
+	margin-bottom: 20vh;
+	justify-content: relative;
+	padding-left: vw ;
+	text-align: center;
+}
+
+.registration_text{
+	padding-top: 15px;
+	font-family: Magdelin;
+	font-size: 4vh;
+	text-align: center;
+}
+
+.scroll_text{
+	color: white;
+	font-family: Magdelin;
+	font-size: 2vh;
+	padding-top: 10px;
+	padding-bottom: 1vh;
+	padding-top: 1vh;
+}
+
+.scroll{
+	color: white;
+	background: black;
+	border-radius: 20px 20px;
+	height: 4vh;
+	width: 15vh;
+	margin: 0 auto;
+	padding-bottom: 0.5vh;
+	vertical-align: center;
+	margin-bottom: 100vh;
+	text-align: center;
+}
+
+.scroll_a{
+	text-align: center;	
+	text-decoration: none;
+}
+
+
+.form-styling1 {
+  	width: 50vw;
+  	max-width: 300px;
+  	height: 35px;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	border-color:rgba(246,247,249,0.8);
+	border-radius: 20px;
+  	margin-bottom: 20px;
+  	background: rgba(246,247,249,0.9); 
+  	text-align: center;	
+}
+
+.form-styling2 {
+  	width: calc(50vw-20px);
+  	max-width: 300px;
+  	height: 35px;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	border-color:rgba(246,247,249,0.8);
+	border-radius: 20px;
+  	margin-bottom: 20px;
+  	background: rgba(246,247,249,0.9); 
+  	text-align: center;	
+}
+
+.btn-signin {
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  text-align: center;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  margin-top: -8px;
+  background: #586BE5;
+  width: 200px;
+  text-align: center;
+  vertical-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+
+.forgot {
+  padding-top: 2vh;
+  text-align: center;
+  width: 100%;
+  font-family: Magdelin;
+  padding-bottom: 3vh;  transition: all 0.5s ease;
+}
+
+.forgot-left {
+  transform: translateX(-400px);
+  opacity: 0;
+}
+
+.forgot{
+  margin: 0 0;
+  color: #586BE5;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+
+.label{
+	font-family: Magdelin;
+	text-align: center;
+}
+.password-control {
+	top: 11px;
+	right: 6px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+	padding-bottom: 5px;
+	margin-bottom: -10px;
+	
+}
+
+.password-control.view {
+	background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+	text-align: none;
+	position: static;
+}
+
+.password_div{
+	
+  	display: inline-block;
+}
